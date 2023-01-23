@@ -102,7 +102,7 @@ btn:focus {
 /*@supports used just in case the browser doesn't support the bland mode then it will use the default background color of #222 given outside the supporrt tag*/
 @supports (background-blend-mode: multiply) {
   .hero {
-    background: url(Images/shoe-3.png), radial-gradient(#444, #111);
+    background: url(images/shoe-3.png), radial-gradient(#444, #111);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
